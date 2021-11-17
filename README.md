@@ -10,7 +10,15 @@
 非实时转写调用api完成语音MP3文件等转写成txt文本。
 
 ## 使用方法
-在命令行下输入
+
+去控制台找到下面的码，换成你自己的。
+```
+appid = "xxxx"
+secret_key = "xxxxxxxx"
+```
+
+
+然后在命令行下输入
 
 ```python weblfasr_python3_demo.py [待转写的mp3文件]```
 
